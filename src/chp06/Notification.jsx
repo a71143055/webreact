@@ -1,19 +1,5 @@
 import React from "react";
-
-const styles = {
-    wrapper: {
-        margin: 8,
-        padding: 8,
-        diplay: "flex",
-        flexDirection: "row",
-        border: "1px solid grey",
-        borderRadius: 16,
-    },
-    messageText: {
-        color: "black",
-        fontSize: 16,
-    },
-};
+import "./styles.css"
 
 class Notification extends React.Component {
     constructor(props) {
@@ -35,8 +21,8 @@ class Notification extends React.Component {
 
     render() {
         return (
-            <div style={styles.wrapper}>
-                <span style={styles.messageText}>
+            <div className="wrapper">
+                <span className="messageText">
                     {this.props.message}
                 </span>
             </div>
