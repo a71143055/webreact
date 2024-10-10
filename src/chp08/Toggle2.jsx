@@ -10,7 +10,7 @@ function Toggle2() {
 
     return (
         <button onClick={handleClick}>
-            함수형 컴푸넌트 {isToggleOn? "켜짐" : "꺼짐"}
+            함수형 컴포넌트 {isToggleOn? "켜짐" : "꺼짐"}
         </button>
     );
 }
