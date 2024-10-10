@@ -5,11 +5,13 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import CommentList from "./chp05/CommentList";
 import NotificationList from "./chp06/NotificationList";
+import Toggle from "./chp08/Toggle";
+import Toggle2 from "./chp08/Toggle2";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <NotificationList />
+    <Toggle2 />
   </React.StrictMode>
 );
 
