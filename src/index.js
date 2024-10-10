@@ -8,11 +8,12 @@ import NotificationList from "./chp06/NotificationList";
 import Toggle from "./chp08/Toggle";
 import Toggle2 from "./chp08/Toggle2";
 import ClickButton from "./chp08/ClickButton";
+import Counter from "./chp07/Counter";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <ClickButton />
+    <Counter />
   </React.StrictMode>
 );
 
