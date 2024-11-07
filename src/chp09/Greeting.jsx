@@ -1,6 +1,5 @@
 import React from "react";
-import UserGreeting from "./UserGreeting";
-import GuestGreeting from "./GuestGreeting";
+import {UserGreeting, GuestGreeting} from "./UserGuestGreeting";
 
 function Greeting(props) {
     const isLoggedIn = props.isLoggedIn;
