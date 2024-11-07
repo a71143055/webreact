@@ -10,11 +10,12 @@ import Toggle2 from "./chp08/Toggle2";
 import ClickButton from "./chp08/ClickButton";
 import Counter from "./chp08/Counter";
 import InputTest from "./chp08/InputTest";
+import Greeting from "./chp09/Greeting";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <InputTest />
+    <Greeting isLoggedIn={true} />
   </React.StrictMode>
 );
 
