@@ -11,11 +11,12 @@ import ClickButton from "./chp08/ClickButton";
 import Counter from "./chp08/Counter";
 import InputTest from "./chp08/InputTest";
 import Greeting from "./chp09/Greeting";
+import NumberList from "./chp10/NumberList";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Greeting isLoggedIn={true} />
+    <NumberList />
   </React.StrictMode>
 );
 
